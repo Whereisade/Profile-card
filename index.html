@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/687083b80a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="card">
+        <img src="https://res.cloudinary.com/ddrylpaqx/image/upload/v1738317664/q_ecvbyi.jpg" alt="Profile Picture" class="profile-picture" data-testid="profilePicture">
+        <h2 data-testid="fullName">Fawaz Adeleke Adewuyi</h2>
+        <h3 data-testid="jobTitle">Frontend Web Developer</h3>
+        <p data-testid="shortBio">Passionate web developer skilled in HTML, Tailwindcss, Javascript, Next.js, Django, and UI/UX design. Always eager to build interesting and functional digital apps and experiences.</p>
+        <p data-testid="currentLocation"> <span>📍</span>Lagos, Nigeria</p>
+        <p data-testid="emailAddress"><i class="fa-solid fa-envelope"></i> fawaz.adewuyi@yahoo.com</p>
+        <div class="social-links" data-testid="socialLinks">
+            <a href="https://www.linkedin.com/in/fawaz-adewuyi/" target="_blank" id="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            <a href="https://github.com/Whereisade/" target="_blank" id="git"><i class="fa fa-github" aria-hidden="true"></i></a>
+            <a href="https://x.com/Fawzy_bahd_guy" target="_blank" id="x"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+        <p data-testid="currentTimeUTC" id="utc-time"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
